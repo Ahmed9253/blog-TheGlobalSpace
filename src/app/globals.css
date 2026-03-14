@@ -21,9 +21,9 @@ button {
 }
 
 .dark {
-  --bg: #c4214a;
+  --bg: #0b1014;
   --textColor: aqua;
-  --softBg: #1f273a;
+  --softBg: #626262;
   --softTextColor: #a6a6a6;
 }
 

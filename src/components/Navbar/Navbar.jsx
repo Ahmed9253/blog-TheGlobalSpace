@@ -8,7 +8,9 @@ import ThemeToggle from "../themeToggle/ThemeToggle";
 function Navbar() {
   return (
     <div className={styles.container}>
-      <div className={styles.logo}>TechBits</div>
+      <Link href="/" className={styles.logo}>
+        <span>The Global Space</span>
+      </Link>
       <div className={styles.links}>
         <ThemeToggle />
         <Link href="/" className={styles.link}>
